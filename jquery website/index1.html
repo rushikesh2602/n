@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .h1{
+        margin: 20px;
+        padding: 10px;
+        background: orange;
+        text-align: center;
+    }
+
+    .h2{
+        text-align: center;
+        color: red;
+    }
+
+    main{
+        margin: 75px;
+    }
+
+    .button{
+        cursor: default;
+        box-sizing: border-box;
+        background-color: black;
+        color: white;
+        margin: 39px;
+        padding: 9px;
+    }
+
+    footer{
+        text-align: center;
+    background: black;
+    color: wheat;
+    margin: 31px;
+    padding: 31px;
+    }
+
+    
+</style>
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1 class="h1">Mobile Website</h1>
+    </header>
+
+<main>
+
+    <h1 class="h2">Welcome!</h1>
+
+
+    <div>
+        hey!!!!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi veniam temporibus, odio fugiat porro natus accusamus doloremque non neque esse expedita enim nam ipsum facilis architecto similique dicta, maxime, quam officia? Voluptates accusamus reprehenderit repudiandae!
+       This is the simple Mobile website using HTML CSS Javascritp and jQuery
+    </div>
+
+    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cupiditate error laborum eum voluptatum sapiente magni, quam, suscipit nisi cum quia, aut enim magnam accusantium quod necessitatibus. Dolorem, obcaecati eius!</p>
+
+    <button class="button1">click to know more</button>
+
+    <!-- <button class="button">Click me</button> -->
+
+</main>
+
+
+    <footer>
+        &copy; Rushikesh Naykodi
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+         $(document).ready(function() {
+      // Hide the paragraph initially
+      $('.p').hide();
+      
+      // Add click event handler to the button
+      $('.button1').click(function() {
+        // Toggle the visibility of the paragraph
+        $('.p').toggle();
+      });
+    });
+    
+        
+       
+      </script>
+
+
+</body>
+
+</html>
+
